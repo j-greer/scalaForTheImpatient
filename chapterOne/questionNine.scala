@@ -7,7 +7,7 @@
 
 val firstChar = "hello".head
 
-val lastChar = "heelo".takeRight(1)
+val lastChar = "hello".takeRight(1)
 
 println(s"First Character = $firstChar \nLast Character = $lastChar")
 
