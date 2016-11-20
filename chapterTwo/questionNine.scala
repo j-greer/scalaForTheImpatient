@@ -3,7 +3,7 @@
 def recursiveProduct(s: String): Int = {
   val tail = s.tail
   if (tail.size == 0){
-    1
+    s.head
   }
   else {
     s.head * recursiveProduct(tail)
