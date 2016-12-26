@@ -7,7 +7,13 @@
 
 
 def Signum(n: Int): Int = {
-  if (n > 0) 1 else -1
+  if (n > 0){
+    1
+  }
+  else if (n==0){
+    0
+  }
+  else -1
 }
 
 println(Signum(5))
